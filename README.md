@@ -18,13 +18,13 @@ O principal objetivo deste projeto é implementar e testar um algoritmo aproxima
 
 ### Através do código fonte do GitHub
 
-Dependências:
+**Dependências:**
 
 1.  [Git](https://git-scm.com/downloads)
 
 2.  [.NET 9.0](https://dotnet.microsoft.com/pt-br/download/dotnet/9.0)
 
-Comandos:
+**Passo-a-passo**
 
 ```bash
 git clone https://github.com/pedrozandonai/ApproximateAlgorithm.git
@@ -36,9 +36,17 @@ dotnet run Program.cs
 
 ### Baixando o arquivo e executando o .exe
 
-Dependências:
+**Dependências:**
 
 1.  [.NET 9.0](https://dotnet.microsoft.com/pt-br/download/dotnet/9.0)
+
+**Passo-a-passo:**
+
+1. Faça o download do arquivo .zip [neste link.](https://github.com/pedrozandonai/ApproximateAlgorithm/releases/tag/v1.0.0);
+
+2. Extraia o conteúdo da pasta no local desejado;
+
+3. execute o arquivo **ApproximateAlgorithm.ConsoleApp.exe**.
 
 ## Relatório (à pedido do professor)
 
@@ -68,3 +76,8 @@ A implementação do algoritmo da mochila fracionária é de alta qualidade, poi
 - _Uso de LINQ:_ O uso de LINQ para ordenar e filtrar os itens pode ser substituído por loops manuais para melhorar a legibilidade e o desempenho em alguns casos.
 
 - _Precisão com Frações:_ Embora o algoritmo trabalhe com frações de itens, o tratamento de frações de peso como inteiros pode levar a pequenas imprecisões, dependendo do contexto da aplicação.
+
+## Bugs conhecidos
+
+- Por algum motivo, pode ser que o terminal não imprima o conteúdo do primeiro prompt, após o carregamento da tela inicial contendo o nome do programa e o criador dele.
+  Para contornar este problema, infelizmente é necessário re-abrir o programa.
